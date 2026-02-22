@@ -436,7 +436,7 @@ main hr{
   transition: width 1.5s 
   cubic-bezier(0.65, 0, 0.35, 1);
   position: relative;
-  width: 88%;
+  width: 50%;
 }
 .about .content-wrapper .skills-showcase .skills-list .skill-item .progress .progress-bar-4 {
   height: 100%;
@@ -445,7 +445,7 @@ main hr{
   transition: width 1.5s 
   cubic-bezier(0.65, 0, 0.35, 1);
   position: relative;
-  width: 85%;
+  width: 15%;
 }
 
 .about .content-wrapper .skills-showcase .skills-list .skill-item .progress .progress-bar-5 {
@@ -689,4 +689,11 @@ footer .footer-right{
 }
 .sk{
   height: 700px;
+}
+.footer-third ul li img{
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
 }
